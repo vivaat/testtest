@@ -223,7 +223,7 @@
           "message": {
             "text": "The declared function type is cv-qualified. Using this type leads to undefined behavior."
           },
-          "level": "normal",
+          "level": "warning",
           "locations": [
             {
               "physicalLocation": {
