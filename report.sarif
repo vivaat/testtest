@@ -503,7 +503,7 @@
           "message": {
             "text": "Function type should not be type qualified."
           },
-          "level": "normal",
+          "level": "warning",
           "locations": [
             {
               "physicalLocation": {
