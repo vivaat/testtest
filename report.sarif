@@ -1,0 +1,544 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "invocations": [],
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.35.0.1",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V511",
+              "name": "RuleV511",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v511/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v511/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-467"
+                ]
+              }
+            },
+            {
+              "id": "V514",
+              "name": "RuleV514",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v514/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v514/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-131"
+                ]
+              }
+            },
+            {
+              "id": "V1031",
+              "name": "RuleV1031",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v1031/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v1031/"
+            },
+            {
+              "id": "V1117",
+              "name": "RuleV1117",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v1117/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v1117/"
+            },
+            {
+              "id": "V2541",
+              "name": "RuleV2541",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2541/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2541/"
+            },
+            {
+              "id": "V2626",
+              "name": "RuleV2626",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2626/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2626/"
+            },
+            {
+              "id": "V2507",
+              "name": "RuleV2507",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2507/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2507/"
+            },
+            {
+              "id": "V2547",
+              "name": "RuleV2547",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2547/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2547/"
+            },
+            {
+              "id": "V2568",
+              "name": "RuleV2568",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2568/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2568/"
+            },
+            {
+              "id": "V2572",
+              "name": "RuleV2572",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2572/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2572/"
+            },
+            {
+              "id": "V2601",
+              "name": "RuleV2601",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2601/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2601/"
+            },
+            {
+              "id": "V2615",
+              "name": "RuleV2615",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2615/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2615/"
+            },
+            {
+              "id": "V2627",
+              "name": "RuleV2627",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2627/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2627/"
+            },
+            {
+              "id": "V2628",
+              "name": "RuleV2628",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v2628/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2628/"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V511",
+          "message": {
+            "text": "The sizeof() operator returns size of the pointer, and not of the array, in 'sizeof (array)' expression."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V514",
+          "message": {
+            "text": "Dividing sizeof a pointer 'sizeof (array)' by another value. There is a probability of logical error presence."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V1031",
+          "message": {
+            "text": "The 'memcpy' function is not declared. Passing data to or from this function can be affected."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V1117_CRITICAL",
+          "message": {
+            "text": "The declared function type is cv-qualified. Using this type leads to undefined behavior."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 4,
+                  "endLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V1117_NORMAL",
+          "message": {
+            "text": "The declared function type is cv-qualified. Using this type leads to undefined behavior."
+          },
+          "level": "normal",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 6,
+                  "endLine": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2541",
+          "message": {
+            "text": "The 'memcpy' function should not be declared implicitly."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2626",
+          "message": {
+            "text": "The sizeof operator should not have an operand which is a function parameter declared as 'array of type'."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2626",
+          "message": {
+            "text": "Wooowowowowowo."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2507",
+          "message": {
+            "text": "The body of the 'for' statement should be enclosed in braces."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 11,
+                  "endLine": 11
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2547",
+          "message": {
+            "text": "The return value of non-void function 'memcpy' should be used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2568",
+          "message": {
+            "text": "Both operands of the '*' operator should have the same essential type. The current types are: 'signed' and 'unsigned'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2572",
+          "message": {
+            "text": "The value of the 'sizeof (array) / sizeof (array[0])' expression should not be converted from the essential 'unsigned' type to the essential 'signed' type."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2601",
+          "message": {
+            "text": "Functions should be declared in prototype form with named parameters."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2601",
+          "message": {
+            "text": "Functions should be declared in prototype form with named parameters."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2615",
+          "message": {
+            "text": "A compatible declaration should be visible when an object or function with external linkage is defined."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 8
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2615",
+          "message": {
+            "text": "A compatible declaration should be visible when an object or function with external linkage is defined."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2615",
+          "message": {
+            "text": "A compatible declaration should be visible when an object or function with external linkage is defined."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2627",
+          "message": {
+            "text": "Function type should not be type qualified."
+          },
+          "level": "critical",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 6,
+                  "endLine": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2627",
+          "message": {
+            "text": "Function type should not be type qualified."
+          },
+          "level": "normal",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 4,
+                  "endLine": 4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V2628",
+          "message": {
+            "text": "Pointer arguments to the 'memcpy' function should be pointers to qualified or unqualified versions of compatible types."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/at/projects/misra_project/main.c"
+                },
+                "region": {
+                  "startLine": 19,
+                  "endLine": 19
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
