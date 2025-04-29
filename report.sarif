@@ -483,7 +483,7 @@
           "message": {
             "text": "Function type should not be type qualified."
           },
-          "level": "critical",
+          "level": "error",
           "locations": [
             {
               "physicalLocation": {
