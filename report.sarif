@@ -1,214 +1,170 @@
 {
   "version": "2.1.0",
-  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/errata01/os/schemas/sarif-schema-2.1.0.json",
   "runs": [
     {
-      "invocations": [],
       "tool": {
         "driver": {
           "name": "PVS-Studio",
-          "semanticVersion": "7.35.0.1",
+          "semanticVersion": "7.36.0.0",
           "informationUri": "https://pvs-studio.com",
           "rules": [
             {
-              "id": "V511",
-              "name": "RuleV511",
+              "id": "V1049",
+              "name": "RuleV1049",
               "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v511/"
+                "text": "https://pvs-studio.com/en/docs/warnings/v1049/"
               },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v511/",
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v1049/"
+            },
+            {
+              "id": "V1042",
+              "name": "RuleV1042",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v1042/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v1042/",
               "properties": {
                 "tags": [
                   "security",
-                  "external/cwe/cwe-467"
+                  "external/cwe/cwe-1177"
                 ]
               }
             },
             {
-              "id": "V514",
-              "name": "RuleV514",
+              "id": "V610",
+              "name": "RuleV610",
               "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v514/"
+                "text": "https://pvs-studio.com/en/docs/warnings/v610/"
               },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v514/",
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v610/",
               "properties": {
                 "tags": [
                   "security",
-                  "external/cwe/cwe-131"
+                  "external/cwe/cwe-758"
                 ]
               }
             },
             {
-              "id": "V1031",
-              "name": "RuleV1031",
+              "id": "V1053",
+              "name": "RuleV1053",
               "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v1031/"
+                "text": "https://pvs-studio.com/en/docs/warnings/v1053/"
               },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v1031/"
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v1053/"
             },
             {
-              "id": "V1117",
-              "name": "RuleV1117",
+              "id": "V547",
+              "name": "RuleV547",
               "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v1117/"
+                "text": "https://pvs-studio.com/en/docs/warnings/v547/"
               },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v1117/"
-            },
-            {
-              "id": "V2541",
-              "name": "RuleV2541",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2541/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2541/"
-            },
-            {
-              "id": "V2626",
-              "name": "RuleV2626",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2626/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2626/"
-            },
-            {
-              "id": "V2507",
-              "name": "RuleV2507",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2507/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2507/"
-            },
-            {
-              "id": "V2547",
-              "name": "RuleV2547",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2547/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2547/"
-            },
-            {
-              "id": "V2568",
-              "name": "RuleV2568",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2568/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2568/"
-            },
-            {
-              "id": "V2572",
-              "name": "RuleV2572",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2572/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2572/"
-            },
-            {
-              "id": "V2601",
-              "name": "RuleV2601",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2601/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2601/"
-            },
-            {
-              "id": "V2615",
-              "name": "RuleV2615",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2615/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2615/"
-            },
-            {
-              "id": "V2627",
-              "name": "RuleV2627",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2627/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2627/"
-            },
-            {
-              "id": "V2628",
-              "name": "RuleV2628",
-              "help": {
-                "text": "https://pvs-studio.com/en/docs/warnings/v2628/"
-              },
-              "helpUri": "https://pvs-studio.com/en/docs/warnings/v2628/"
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v547/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-570"
+                ]
+              }
             }
           ]
         }
       },
       "results": [
         {
-          "ruleId": "V511",
+          "ruleId": "V1049",
           "message": {
-            "text": "The sizeof() operator returns size of the pointer, and not of the array, in 'sizeof (array)' expression."
+            "text": "The 'FILE_IO_H' include guard is already defined in the 'apr_arch_file_io.h' header. The 'apr_arch_file_io.h' header will be excluded from compilation."
           },
           "level": "error",
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
+                  "uri": "src/freeswitch/libs/apr/include/arch/unix/apr_arch_file_io.h"
                 },
                 "region": {
-                  "startLine": 10,
-                  "endLine": 10
+                  "startLine": 18,
+                  "endLine": 18
                 }
               }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          }
+        },
+        {
+          "ruleId": "V1049",
+          "message": {
+            "text": "The 'NETWORK_IO_H' include guard is already defined in the 'apr_arch_networkio.h' header. The 'apr_arch_networkio.h' header will be excluded from compilation."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/apr/include/arch/unix/apr_arch_networkio.h"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          }
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/broadvoice/src/broadvoice/broadvoice.h"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
             }
           ]
         },
         {
-          "ruleId": "V514",
+          "ruleId": "V1042",
           "message": {
-            "text": "Dividing sizeof a pointer 'sizeof (array)' by another value. There is a probability of logical error presence."
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
           },
           "level": "error",
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 10,
-                  "endLine": 10
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "V1031",
-          "message": {
-            "text": "The 'memcpy' function is not declared. Passing data to or from this function can be affected."
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 19,
-                  "endLine": 19
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "V1117_CRITICAL",
-          "message": {
-            "text": "The declared function type is cv-qualified. Using this type leads to undefined behavior."
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
+                  "uri": "src/freeswitch/libs/iksemel/include/iksemel.h"
                 },
                 "region": {
                   "startLine": 4,
@@ -216,59 +172,671 @@
                 }
               }
             }
-          ]
-        },
-        {
-          "ruleId": "V1117_NORMAL",
-          "message": {
-            "text": "The declared function type is cv-qualified. Using this type leads to undefined behavior."
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
           },
-          "level": "warning",
-          "locations": [
+          "taxa": [
             {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 6,
-                  "endLine": 6
-                }
-              }
+              "id": "external/cwe/cwe-1177"
             }
           ]
         },
         {
-          "ruleId": "V2541",
+          "ruleId": "V1042",
           "message": {
-            "text": "The 'memcpy' function should not be declared implicitly."
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
           },
           "level": "error",
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
+                  "uri": "src/freeswitch/libs/ilbc/src/ilbc/ilbc.h"
                 },
                 "region": {
-                  "startLine": 19,
-                  "endLine": 19
+                  "startLine": 15,
+                  "endLine": 15
                 }
               }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
             }
           ]
         },
         {
-          "ruleId": "V2626",
+          "ruleId": "V1042",
           "message": {
-            "text": "The sizeof operator should not have an operand which is a function parameter declared as 'array of type'."
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
           },
           "level": "error",
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
+                  "uri": "src/freeswitch/libs/libmpg123/src/libmpg123/mpg123lib_intern.h"
+                },
+                "region": {
+                  "startLine": 4,
+                  "endLine": 4
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1049",
+          "message": {
+            "text": "The '__DECLSPEC_H__' include guard is already defined in the 'declspec.h' header. The 'declspec.h' header will be excluded from compilation."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/libnatpmp/declspec.h"
+                },
+                "region": {
+                  "startLine": 2,
+                  "endLine": 2
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          }
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/libshout-2.2.2/src/thread/thread.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/libsndfile/src/G72x/g72x.h"
+                },
+                "region": {
+                  "startLine": 5,
+                  "endLine": 5
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/libsndfile/src/sfendian.h"
+                },
+                "region": {
+                  "startLine": 5,
+                  "endLine": 5
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/libzrtp/third_party/bgaes/sha2.h"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1049",
+          "message": {
+            "text": "The 'HEADER_D1_SRTP_H' include guard is already defined in the 'srtp.h' header. The 'srtp.h' header will be excluded from compilation."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/openssl-1.0.1h/ssl/srtp.h"
+                },
+                "region": {
+                  "startLine": 119,
+                  "endLine": 119
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          }
+        },
+        {
+          "ruleId": "V610",
+          "message": {
+            "text": "Unspecified behavior. Check the shift operator '>>'. The left operand '(((opus_int32) 0x80000000))' is negative."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/opus-1.1/silk/Inlines.h"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 131
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-758"
+            }
+          ]
+        },
+        {
+          "ruleId": "V610",
+          "message": {
+            "text": "Unspecified behavior. Check the shift operator '>>'. The left operand '(((opus_int32) 0x80000000))' is negative."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/opus-1.1/silk/Inlines.h"
+                },
+                "region": {
+                  "startLine": 173,
+                  "endLine": 173
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-758"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/pthreads-w32-2-9-1/pthread.h"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V610",
+          "message": {
+            "text": "Unspecified behavior. Check the shift operator '>>'. The left operand '(((int) 0x80000000))' is negative."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/silk/src/SKP_Silk_Inlines.h"
+                },
+                "region": {
+                  "startLine": 155,
+                  "endLine": 155
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-758"
+            }
+          ]
+        },
+        {
+          "ruleId": "V610",
+          "message": {
+            "text": "Unspecified behavior. Check the shift operator '>>'. The left operand '(((int) 0x80000000))' is negative."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/silk/src/SKP_Silk_Inlines.h"
+                },
+                "region": {
+                  "startLine": 198,
+                  "endLine": 198
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-758"
+            }
+          ]
+        },
+        {
+          "ruleId": "V610",
+          "message": {
+            "text": "Unspecified behavior. Check the shift operator '>>'. The left operand is negative ('....' = [-331148355..0])."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/silk/src/SKP_Silk_Inlines.h"
+                },
+                "region": {
+                  "startLine": 237,
+                  "endLine": 237
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-758"
+            }
+          ]
+        },
+        {
+          "ruleId": "V610",
+          "message": {
+            "text": "Undefined behavior. Check the shift operator '<<'. The left operand '-1' is negative."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/silk/src/SKP_Silk_Inlines.h"
+                },
+                "region": {
+                  "startLine": 253,
+                  "endLine": 253
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-758"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/sofia-sip/libsofia-sip-ua/nua/sofia-sip/nua.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "endLine": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Major",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/sofia-sip/libsofia-sip-ua/sdp/sofia-sip/sdp.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "endLine": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/sofia-sip/libsofia-sip-ua/su/sofia-sip/su.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "endLine": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/sofia-sip/libsofia-sip-ua/su/sofia-sip/su_log.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "endLine": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/sofia-sip/win32/config.h"
+                },
+                "region": {
+                  "startLine": 9,
+                  "endLine": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/spandsp/src/msvc/spandsp.h"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/sphinxbase-0.7/src/libsphinxbase/lm/jsgf_parser.h"
                 },
                 "region": {
                   "startLine": 10,
@@ -276,19 +844,30 @@
                 }
               }
             }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
           ]
         },
         {
-          "ruleId": "V2626",
+          "ruleId": "V1042",
           "message": {
-            "text": "Wooowowowowowo."
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
           },
           "level": "error",
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
+                  "uri": "src/freeswitch/libs/unimrcp/libs/mpf/codecs/g711/g711.h"
                 },
                 "region": {
                   "startLine": 10,
@@ -296,19 +875,255 @@
                 }
               }
             }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
           ]
         },
         {
-          "ruleId": "V2507",
+          "ruleId": "V1042",
           "message": {
-            "text": "The body of the 'for' statement should be enclosed in braces."
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
           },
-          "level": "warning",
+          "level": "error",
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
+                  "uri": "src/freeswitch/libs/win32/libsndfile/sndfile.h"
+                },
+                "region": {
+                  "startLine": 5,
+                  "endLine": 5
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/libs/win32/mpg123/libmpg123/mpg123.h"
+                },
+                "region": {
+                  "startLine": 4,
+                  "endLine": 4
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/src/include/g711.h"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-1177"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1053",
+          "message": {
+            "text": "Calling the 'CloseDevice' virtual function indirectly in the destructor may lead to unexpected result at runtime. Check lines: 'gpib.h:279', 'iobase.h:123', 'iobase.h:80'."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/src/mod/endpoints/mod_gsmopen/libctb-0.16/include/ctb-0.16/gpib.h"
+                },
+                "region": {
+                  "startLine": 279,
+                  "endLine": 279
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Calling the 'CloseDevice' virtual function indirectly in the destructor may lead to unexpected result at runtime. Check lines: 'gpib.h:279', 'iobase.h:123', 'iobase.h:80'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/src/mod/endpoints/mod_gsmopen/libctb-0.16/include/ctb-0.16/gpib.h"
+                },
+                "region": {
+                  "endLine": 279,
+                  "startLine": 279
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Calling the 'CloseDevice' virtual function indirectly in the destructor may lead to unexpected result at runtime. Check lines: 'gpib.h:279', 'iobase.h:123', 'iobase.h:80'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/src/mod/endpoints/mod_gsmopen/libctb-0.16/include/ctb-0.16/iobase.h"
+                },
+                "region": {
+                  "endLine": 80,
+                  "startLine": 80
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Calling the 'CloseDevice' virtual function indirectly in the destructor may lead to unexpected result at runtime. Check lines: 'gpib.h:279', 'iobase.h:123', 'iobase.h:80'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/src/mod/endpoints/mod_gsmopen/libctb-0.16/include/ctb-0.16/iobase.h"
+                },
+                "region": {
+                  "endLine": 123,
+                  "startLine": 123
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V547",
+          "message": {
+            "text": "Expression 'type == 8' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/src/mod/endpoints/mod_rtmp/handshake.h"
+                },
+                "region": {
+                  "startLine": 751,
+                  "endLine": 751
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-570"
+            }
+          ]
+        },
+        {
+          "ruleId": "V547",
+          "message": {
+            "text": "Expression 'type == 9' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/src/mod/endpoints/mod_rtmp/handshake.h"
+                },
+                "region": {
+                  "startLine": 757,
+                  "endLine": 757
+                }
+              }
+            }
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
+          },
+          "taxa": [
+            {
+              "id": "external/cwe/cwe-570"
+            }
+          ]
+        },
+        {
+          "ruleId": "V1042",
+          "message": {
+            "text": "This file is marked with copyleft license, which requires you to open the derived source code."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/freeswitch/src/mod/endpoints/mod_rtmp/libamf/src/types.h"
                 },
                 "region": {
                   "startLine": 11,
@@ -316,224 +1131,49 @@
                 }
               }
             }
-          ]
-        },
-        {
-          "ruleId": "V2547",
-          "message": {
-            "text": "The return value of non-void function 'memcpy' should be used."
+          ],
+          "properties": {
+            "checker_reliability": "High",
+            "checker_severity": "Critical",
+            "lang": "CXX",
+            "tool": "PVS-Studio"
           },
-          "level": "warning",
-          "locations": [
+          "taxa": [
             {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 19,
-                  "endLine": 19
-                }
-              }
+              "id": "external/cwe/cwe-1177"
             }
           ]
-        },
+        }
+      ],
+      "taxonomies": [
         {
-          "ruleId": "V2568",
-          "message": {
-            "text": "Both operands of the '*' operator should have the same essential type. The current types are: 'signed' and 'unsigned'."
+          "name": "CWE",
+          "organization": "MITRE",
+          "shortDescription": {
+            "text": "The MITRE Common Weakness Enumeration"
           },
-          "level": "warning",
-          "locations": [
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": true,
+          "taxa": [
             {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 19,
-                  "endLine": 19
-                }
+              "id": "external/cwe/cwe-1177",
+              "shortDescription": {
+                "text": "See more at https://cwe.mitre.org/data/definitions/1177.html."
               }
-            }
-          ]
-        },
-        {
-          "ruleId": "V2572",
-          "message": {
-            "text": "The value of the 'sizeof (array) / sizeof (array[0])' expression should not be converted from the essential 'unsigned' type to the essential 'signed' type."
-          },
-          "level": "warning",
-          "locations": [
+            },
             {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 10,
-                  "endLine": 10
-                }
+              "id": "external/cwe/cwe-758",
+              "shortDescription": {
+                "text": "See more at https://cwe.mitre.org/data/definitions/758.html."
               }
-            }
-          ]
-        },
-        {
-          "ruleId": "V2601",
-          "message": {
-            "text": "Functions should be declared in prototype form with named parameters."
-          },
-          "level": "warning",
-          "locations": [
+            },
             {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 19,
-                  "endLine": 19
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "V2601",
-          "message": {
-            "text": "Functions should be declared in prototype form with named parameters."
-          },
-          "level": "warning",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 22,
-                  "endLine": 22
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "V2615",
-          "message": {
-            "text": "A compatible declaration should be visible when an object or function with external linkage is defined."
-          },
-          "level": "warning",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 8,
-                  "endLine": 8
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "V2615",
-          "message": {
-            "text": "A compatible declaration should be visible when an object or function with external linkage is defined."
-          },
-          "level": "warning",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 17,
-                  "endLine": 17
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "V2615",
-          "message": {
-            "text": "A compatible declaration should be visible when an object or function with external linkage is defined."
-          },
-          "level": "warning",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 22,
-                  "endLine": 22
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "V2627",
-          "message": {
-            "text": "Function type should not be type qualified."
-          },
-          "level": "error",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 6,
-                  "endLine": 6
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "V2627",
-          "message": {
-            "text": "Function type should not be type qualified."
-          },
-          "level": "warning",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 4,
-                  "endLine": 4
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "V2628",
-          "message": {
-            "text": "Pointer arguments to the 'memcpy' function should be pointers to qualified or unqualified versions of compatible types."
-          },
-          "level": "warning",
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///home/at/projects/misra_project/main.c"
-                },
-                "region": {
-                  "startLine": 19,
-                  "endLine": 19
-                }
+              "id": "external/cwe/cwe-570",
+              "shortDescription": {
+                "text": "See more at https://cwe.mitre.org/data/definitions/570.html."
               }
             }
           ]
